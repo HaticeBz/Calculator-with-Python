@@ -1,13 +1,14 @@
 firstNumber = int(input("Enter number :"))
 secondNumber = int(input("Enter number :"))
-operation = input('''What mathematical operation do you want to perform?
-(Toplama : +, Çıkarma : -, Çarpma : *, Bölme : /)''')
+operation = input('''What mathematical operation do you want to perform? :
+(Toplama : +, Çıkarma : -, Çarpma : *, Bölme : /)
+''')
 
 if operation == "+" :
-    print(firstNumber + secondNumber)
+    print("Sonuç :" + str(firstNumber + secondNumber))
 elif operation == "-" :
-    print(firstNumber - secondNumber)
+    print("Sonuç :" + str(firstNumber - secondNumber))
 if operation == "*" :
-    print(firstNumber * secondNumber)
+    print("Sonuç :" + str(firstNumber * secondNumber))
 elif operation == "/" :
-    print(firstNumber / secondNumber)
+    print("Sonuç :" + str(firstNumber / secondNumber))
