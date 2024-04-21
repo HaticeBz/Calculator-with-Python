@@ -8,7 +8,7 @@ if operation == "+" :
     print("Sonuç :" + str(firstNumber + secondNumber))
 elif operation == "-" :
     print("Sonuç :" + str(firstNumber - secondNumber))
-if operation == "*" :
+elif operation == "*" :
     print("Sonuç :" + str(firstNumber * secondNumber))
 elif operation == "/" :
     print("Sonuç :" + str(firstNumber / secondNumber))
